@@ -1,0 +1,155 @@
+html,
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  background-color: black;
+  height: 2.32rem;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
+
+header img {
+  padding: 0.41rem 1rem 0.41rem 0.5rem;
+  height: 1.5rem;
+  background-color: black;
+}
+
+header span {
+  font-size: 1rem;
+  margin: 0.66rem 0;
+  color: white;
+}
+
+main {
+  background-image: url("../../resources/images/moto.jpeg");
+  height: 25rem;
+  background-size: cover;
+  display: flex;
+}
+
+.imgInfo {
+  width: 25rem;
+  margin-left: 240.5px;
+  margin-top: 9rem;
+  margin-bottom: 6rem;
+  background-color: black;
+  color: white;
+}
+
+.imgInfo h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.imgInfo h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+  height: 2.5rem;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.flex-container {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container .item {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 15rem;
+}
+
+.item img {
+  height: 9rem;
+  padding: 2rem;
+}
+
+.item h1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.flex-container .category {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.category h1 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.25rem;
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.copyright h1 {
+  text-align: left;
+  color: white;
+}
